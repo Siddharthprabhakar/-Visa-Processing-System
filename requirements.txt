@@ -1,0 +1,4 @@
+jdk==11.0.11
+swing==1.1
+jdbc==4.3.0
+mysql-connector-java==8.0.26
