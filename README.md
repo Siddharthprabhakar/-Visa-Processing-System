@@ -1,48 +1,116 @@
-#Visa-Processing-System
+# Visa Processing System
 
-We developed an efficient software based application which will provide an automated way to maintain the information for visa processing. This Visa Processing System will speed up the time required to get the visa while the software is mainly used for applying for the visa also, it will store the information for the future transaction. 
+An efficient, automated solution for managing visa applications, processing, and tracking. The **Visa Processing System** accelerates the visa application process by allowing users to apply for and track their visa status online, while securely storing the information for future reference. It supports both **Tourist** and **Student** visas.
 
+## Features:
 
-Features:
-* Submit visa applications
+- **Submit Visa Applications**: Users can submit their personal and visa details via an easy-to-use form.
+- **Track Visa Application Status**: Users can track the status of their visa application in real time.
+- **Application and Payment History**: Provides a record of visa applications and payment history for users.
+- **Role-Based Access**: Admin and user roles are supported, where admins can manage applications and users can submit and track their own applications.
+- **Data Security**: Sensitive data is securely stored and encrypted using Java Spring's security features.
+- **Database Support**: Uses **MySQL** for storing user and visa-related data.
+- **Spring Framework**: Built with **Java Spring** for efficient backend processing.
 
-* Track visa application status
+## Tech Stack:
 
-* View visa application history
+- **Java** (Core Java)
+- **Spring Boot** (Backend)
+- **MySQL** (Database)
+- **JDBC** (Database connection)
+- **HTML, CSS, JavaScript** (Front-end)
 
-* View payment history
+---
 
-* Solely for the Tourist and student visa tracking
+## 🚀 Installation and Setup
 
-Installation:
-* To install and run the application on your local machine, follow these steps:
+Follow these steps to set up the **Visa Processing System** on your local machine:
 
-1.Clone the repository to your local machine using Git
+1. **Clone the repository** to your local machine using Git:
 
-2.Navigate to the project directory:
+   ```bash
+   git clone https://github.com/Siddharthprabhakar/visa-processing-system.git
+   ```
 
-* cd visa-processing-system
+2. **Navigate to the project directory**:
 
-3.Create the MySQL database and tables using the JDBC file provided.
+   ```bash
+   cd visa-processing-system
+   ```
 
-4.Run the application:
+3. **Set up the MySQL Database**:
+   - Create a MySQL database (e.g., `visa_db`).
+   - Use the `visa_jdbc.sql` script provided in the `resources` folder to create the necessary tables and seed some initial data.
 
-* java -jar target/visa-processing-system.jar
+4. **Configure application properties**:
+   - In the `application.properties` file located in `src/main/resources/`, update the MySQL database credentials:
 
-5.You should see the application's login screen. Use the following credentials to log in as an admin:
+     ```properties
+     spring.datasource.url=jdbc:mysql://localhost:3306/visa_db
+     spring.datasource.username=your_mysql_username
+     spring.datasource.password=your_mysql_password
+     ```
 
-* Email: admin@admin.com
-* Password: admin123
+5. **Build and run the application**:
 
+   - Using Maven, build the project and package it:
 
-Usage:
+     ```bash
+     mvn clean install
+     ```
 
-1.Once you are logged in , you can fill up the visa applications by navigating to the application form.
+   - Run the application:
 
-2.To submit a visa application as a user, click the "Apply for Visa" button on the login screen. You will be prompted to enter your personal details and visa information.
+     ```bash
+     java -jar target/visa-processing-system.jar
+     ```
 
-3.After submitting your application, you can track its status and view your application history by logging in as a user.
+6. **Access the Application**:
+   - You should see the application's login screen.
 
-Contributing:
+   - **Admin Login Credentials**:
+     - Email: `admin@admin.com`
+     - Password: `admin123`
 
-Contributions are welcome! If you find a bug or have a feature request, please open an issue. Pull requests are also welcome.
+---
+
+## 💡 Usage
+
+### As a User:
+1. **Apply for a Visa**:
+   - On the login screen, click "Apply for Visa."
+   - Fill in your personal information and visa details.
+   - Submit the form to complete the visa application process.
+
+2. **Track Application Status**:
+   - After submitting the application, log in to view the current status of your application, as well as any updates.
+
+3. **View Application History**:
+   - You can view a full history of all your past visa applications and their statuses in your profile dashboard.
+
+### As an Admin:
+1. **Manage Visa Applications**:
+   - Admins can view, update, and process all submitted visa applications.
+   - Admins have access to the full database of visa applications and user information.
+   
+2. **User Management**:
+   - Admins can add, remove, or modify user accounts and oversee the entire system's operation.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to improve the Visa Processing System! Here's how you can help:
+
+- **Bug Reports**: If you find a bug, please open an issue in the GitHub repository.
+- **Feature Requests**: If you have a suggestion or feature request, feel free to submit an issue describing the enhancement.
+- **Pull Requests**: We welcome pull requests! If you have a feature or bug fix, feel free to submit a pull request with a detailed description of your changes.
+
+---
+
+## 📧 Contact
+
+If you have any questions or need support, feel free to contact me at:
+- Email: siddharth.prabhakar@example.com
+- [LinkedIn](https://www.linkedin.com/in/siddharth1308/)
+```
