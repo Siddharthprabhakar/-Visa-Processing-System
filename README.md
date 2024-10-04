@@ -74,30 +74,6 @@ Follow these steps to set up the **Visa Processing System** on your local machin
 
 ---
 
-## 💡 Usage
-
-### As a User:
-1. **Apply for a Visa**:
-   - On the login screen, click "Apply for Visa."
-   - Fill in your personal information and visa details.
-   - Submit the form to complete the visa application process.
-
-2. **Track Application Status**:
-   - After submitting the application, log in to view the current status of your application, as well as any updates.
-
-3. **View Application History**:
-   - You can view a full history of all your past visa applications and their statuses in your profile dashboard.
-
-### As an Admin:
-1. **Manage Visa Applications**:
-   - Admins can view, update, and process all submitted visa applications.
-   - Admins have access to the full database of visa applications and user information.
-   
-2. **User Management**:
-   - Admins can add, remove, or modify user accounts and oversee the entire system's operation.
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions to improve the Visa Processing System! Here's how you can help:
