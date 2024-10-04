@@ -111,6 +111,7 @@ We welcome contributions to improve the Visa Processing System! Here's how you c
 ## 📧 Contact
 
 If you have any questions or need support, feel free to contact me at:
-- Email: siddharth.prabhakar@example.com
+- Email: sid130803@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/siddharth1308/)
-```
+
+---
